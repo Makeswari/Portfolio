@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+   
+    <!----CSS link----->
+    <link rel="stylesheet" href="style.css">
+    <!----Fontawesome CDN Link----->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+</head>
+
+<body>
+     <!-- Header Section -->
+     <header class="header">
+        
+        <nav >
+            <div>
+                <a href="#" class="nav_logo"><strong>Makeswari</strong></a>
+              </div>
+      
+         <div class="hero">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#AboutSubtitle">About</a></li>
+                <li><a href="#SkillSubtitle">Skills</a></li>
+                <li><a href="#work">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+         </div>   
+        </nav>
+    
+
+     </header> 
+        <div class="main">
+        <section>
+        <div class="info" id="home">
+          <img src="https://img.freepik.com/free-vector/low-code-development-concept-illustration_114360-7294.jpg?w=2000" alt="img" style=" float:right;width:600px;height: 300px;">            
+          <h1> HI, <br> I'm <span>Makeswari Sivakumar</span></h1>
+            <h1>Web Developer</h1><br>
+            <button><a href="#contact">Contact</a></button>
+            
+              <div class="footer">
+            
+                 <div><a href="https://www.facebook.com/maheswari.sivakumar.52" class="fa  fa-facebook" ></a></div>
+                 <div><a href="#" class="fa fa-linkedin"></a></div>
+                 <div><a href="https://github.com/Makeswari" class="fa fa-github"></a></div>
+                 <div><a href="https://www.instagram.com/maheswari_sivakumar_/" class="fa fa-instagram"></a></div>
+              </div> 
+              
+            
+            
+          </div>
+        </section>
+
+        <!--        About       -->
+        <section>
+
+        <div class="about" id="AboutSubtitle">
+          <img  src="https://cdn1.byjus.com/wp-content/uploads/blog/2022/07/26112933/1150_Jul22_EE_ProgDiscipline_Feature-1.jpg" alt="img" style="float: left;">
+
+          <h2>About</h2>
+          <p class="about_text" data-aos="fade-down" data-aos-delay="450" >
+          <h2>I'm Makeswari </h2><br>
+                I am Software engineer at Mphasis since 2022. <br>
+                I studied B.Tech Computer science engineering in sastra University.<br>
+                I am good at front-end development.<br>
+                Here is my resume.<br>
+  
+          <a href="2527989_Makeswari Sivakumar_226 JAVA FSD.docx" download class ="download-btn fa fa-download">Download Resume</a>
+          </p>
+        </div>
+        </section>
+
+        <section>
+            <div class="Skills" id="SkillSubtitle">
+                      
+
+             <h2>Skills</h2>
+             <img src="https://www.careerguide.com/career/wp-content/uploads/2020/02/00086-desk-anim-v0.3.gif" alt="img" > 
+
+                <ul class="icons">
+                    <li>HTML5</li>
+                    <li >CSS3</li>
+                    <li >Java</li>
+                    <li>Angular</li>
+                    <li>Springboot</li>
+                </ul>
+ 
+            </div>
+        </section>
+        
+
+        
+        <!-- Project SECTION -->
+        <section class="work section" id="work">
+        
+        <div class="row">
+          <h2 >Projects</h2>
+        <div class="work_img">
+            <img src="https://www.orfonline.org/wp-content/uploads/2021/04/Air-Quality.jpg" width="250" height="250" alt=" " />
+            
+	      	  <h3>Mini Project</h3>
+            <hr>
+            <br>
+	      	  <p>PREDICTING AIR QUALITY INDEX IN INDIA <br> -The aim of the project is to predict AQI for India</p>
+	        
+        </div>
+
+        <div class="work_img">
+            <img src="https://live-production.wcms.abc-cdn.net.au/95addedd540ae6c972e0b5991cbb9e71?impolicy=wcms_crop_resize&cropH=2363&cropW=4200&xPos=0&yPos=169&width=862&height=485" width="250" height="250" alt="Air-Quality" />
+            <h3 > Final Year Project</h3>
+            <hr>
+            <br>
+            <p>Parkinson's Disease Detection using Machine Learning Classification Algorithm <br>-Detect whether a person have parkinson's or not </p> 
+        </div>
+
+        <div class="work_img">
+            <img src="https://www.gstsuvidhacenters.com/WebsiteAssets/images/Services/HealthInsurance.png" width="250" height="250" alt="" />
+            <h3 > Other Project</h3>  
+            <hr>
+            <br>
+            <p> Insurance Policy System Management using Angular and Spring Boot</p>
+        </div>
+      </div>
+        </section>
+
+      <!-- CONTACT FORM -->
+
+      <section class="contact section" id="contact">
+        <h2 class="section-title" data-aos="fade-down">Contact</h2>
+
+        <div class="container">
+          <form action="mailto:makeswari2001@gmail.com" method="post" enctype="text/plain">
+        
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        
+            <label for="email">Email id</label>
+            <input type="text" id="email" name="email" placeholder="Your Email ID..">
+
+        
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        
+            <input type="submit" value="Submit">
+        
+          </form>
+        </div>
+        </section>
+
+      
+       
+        
+    
+      </div>
+
+</body>
+</html>
